@@ -1,4 +1,4 @@
-# 🐋 Liquidity Pools
+# 🐋 Liquidity Pool
 
 ## Getting Started
 
