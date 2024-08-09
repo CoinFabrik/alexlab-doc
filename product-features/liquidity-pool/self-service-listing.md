@@ -16,13 +16,26 @@ layout:
     visible: true
 ---
 
-# 😀 Self Service Listing
+# 📝 Self-Service Listing
 
-## Self-Service Listing Procedure
+Create your own pool and make your token tradeable on ALEX's decentralized exchange in simple steps!
+
+To create a Liquidity Pool you will need to provide liquidity for two types of tokens.
+
+- :rocket: **Token X:** The token you wish to list
+- :anchor: **Token Y:** The anchor token
+
+By doing so, you are allowing the permisionless trade of the pair Token X / Token Y within ALEX's AMM exchange.
+
+{% hint style="warning" %}
+**Supported tokens:** ALEX Self-Service Listing currently supports Stacks Chain Tokens (SIP-10 Standard Token).
+{% endhint %}
+
+## Steps
 
 Step 1: Submit the token information & deposit the anchor token (Token Y)
 
-Step 2: Waiting for the pool contract creation (around 24-48 hours)
+Step 2: Waiting for the wrapped token contract creation (around 24-48 hours)
 
 Step 3: Deposit the listing token (Token X)
 
@@ -30,94 +43,26 @@ Step 4: Open Pool
 
 Step 5: Provide additional token information
 
----
+See [FAQs](#faqs) sections for further information.
 
-## Example: Self-service listing for “STX-PEPE” pool
+## First time self-listing a token? 🙋
 
-### Step 1：Submit the token information & deposit the anchor token
+Visit our how-to sections for a step-by-step guide on [How to Self-List and Create a Pool](../../how-to/how-to-self-list.md).
 
-![Step 1 Figure](../../.gitbook/assets/self-service-listing-example-step1.png)
+## FAQs
 
-#### **Step 1.1 Input the SIP-10 token contract address**
+### How is the initial price determined?
 
-(e.g. Token PEPE： SP1Z92MPDQEWZXW36VX71Q25HKF5K2EPCJ304F275.tokensoft-token-v4k68639zxz)
+Inital price is determined by the initial Pool Liquidity provided by the creator.
 
-#### **Step 1.2 Confirm token information provided by the contract**
+### How does the price change once the pool is created?
 
-- Example:
+Once the pool is created, the price discovery phase starts. Users can permissionless trade the pair of assets and the Automated Market Maker (AMM) algorithm will determine the price dynamics of the Token X.
 
-  Token name: Pepe Coin
+### Which are the anchor tokens supported?
 
-  Token symbol: PEPE
+Native STX currency, ALEX token and aBTC token.
 
-  Description: Greetings, Earthlings! I grant you the opportunity to join my intergalactic economy by embracing Pepe Coin (PEPE).
+### Is there a minimum liquidity amount for the anchor token?
 
-  Token contract address： SP1Z92MPDQEWZXW36VX71Q25HKF5K2EPCJ304F275
-
-  Token logo
-
-#### **Step 1.3 Confirm the initial liquidity**
-
-- Example
-
-  Token X: 1,000,000 PEPE
-
-  Token Y: 1,800 STX
-
-  Initial exchange rate：
-
-  1 Pepe Coin =0.0018STX
-
-\*Once the AMM pool opens, the exchange rate of the AMM pool will automatically re-balance as users buy or sell the token.
-
-#### **Step 1.4 Advanced pool settings（you can keep the default settings）**
-
-- Example
-
-  STX-PEPE pool setting：
-
-  STX-PEPE swap fee rate = 0.3% （fee-rate-x,fee-rate-y）
-
-  Threshold of a single transaction = pool size\*10% （max-in-ratio, max-out-ratio）
-
-  Start block: on finalization （trading will commence once the creation process is finalized）
-
-#### **Step 1.5 Submit**
-
-Click to submit Pool information and deposit the initial liquidity of the Anchor Token.
-
-- Example
-
-  PEPE deposit 1,800 STX
-
-### Step 2：Waiting for pool contract creation
-
-- Once the pool contract is created, 'Contract Ready' status will display 'Ready'.
-
-![Step 2 Figure](../../.gitbook/assets/self-service-listing-example-step2.png)
-
-### Step 3：Deposit Token X
-
-- After creating the contract, click on 'Deposit' to add an amount of Token X matching the amount you previously submitted.
-
-  - Example
-
-    ```
-     PEPE needs to deposit 1,000,000 $PEPE token
-    ```
-
-![Step 3 Figure](../../.gitbook/assets/self-service-listing-example-step3.png)
-
-### Step 4：Open Pool
-
-Once the 'Open Pool' status appears as "Succeeded," it indicates that the pool has been launched and is listed under ALEX Pool -> self-service pool ([https://app.alexlab.co/pool](https://app.alexlab.co/pool) ). You can now proceed with trading your token on the ALEX DEX.
-
-![Step 4 Figure](../../.gitbook/assets/self-service-listing-example-step4.png)
-
-### **Step 5：Provide additional token information**
-
-Click “Contact Us” or "Customer Support" in the Self-Service Listing guide, to add social media information such as Twitter, Official website, etc.
-
-ALEX requires a “Coingecko” or “CoinMarketcap” token listing to verify the provided social media information.
-
-The token's social media information will be displayed on the ALEX Token List: [https://app.alexlab.co/token-list](https://app.alexlab.co/token-list).
+Yes. Initial liquidity of the anchor token must be a minimum of 1800 STX or the equivalent value to 1800 STX in ALEX or aBTC tokens.
