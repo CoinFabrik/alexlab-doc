@@ -4,7 +4,7 @@
 
 ### Step 1：Submit the token information & deposit the anchor token
 
-![Step 1 Figure](../../.gitbook/assets/self-service-listing-example-step1.png)
+![Step 1 Figure](../.gitbook/assets/self-service-listing-example-step1.png)
 
 #### **Step 1.1 Input the SIP-10 token contract address**
 
@@ -62,7 +62,7 @@ Click to submit Pool information and deposit the initial liquidity of the Anchor
 
 - Once the pool contract is created, 'Contract Ready' status will display 'Ready'.
 
-![Step 2 Figure](../../.gitbook/assets/self-service-listing-example-step2.png)
+![Step 2 Figure](../.gitbook/assets/self-service-listing-example-step2.png)
 
 ### Step 3：Deposit Token X
 
@@ -74,13 +74,13 @@ Click to submit Pool information and deposit the initial liquidity of the Anchor
      PEPE needs to deposit 1,000,000 $PEPE token
     ```
 
-![Step 3 Figure](../../.gitbook/assets/self-service-listing-example-step3.png)
+![Step 3 Figure](../.gitbook/assets/self-service-listing-example-step3.png)
 
 ### Step 4：Open Pool
 
 Once the 'Open Pool' status appears as "Succeeded," it indicates that the pool has been launched and is listed under ALEX Pool -> self-service pool ([https://app.alexlab.co/pool](https://app.alexlab.co/pool) ). You can now proceed with trading your token on the ALEX DEX.
 
-![Step 4 Figure](../../.gitbook/assets/self-service-listing-example-step4.png)
+![Step 4 Figure](../.gitbook/assets/self-service-listing-example-step4.png)
 
 ### **Step 5：Provide additional token information**
 
