@@ -8,7 +8,7 @@ description: Create your own pool and make your token tradeable on ALEX's decent
 
 ### What is self-service listing?
 
-Self-service listing allows you to list your own token on ALEX's decentralized exchange, enabling the permissionless trade of your token against a so-called anchor token within the exchange.
+Self-service listing allows you to list your own token on ALEX's decentralized exchange, enabling the permissionless trade of your token against a so-called anchor token within the exchange. The anchor token is typically one with a stable value, providing a reliable reference point for defining the price of the newly listed token.
 
 ALEX decentralized exchange (DEX) is an Automated Market Maker (AMM) type of exchange. This means it operates with trading pools. These pools consist of a pair of tokens with sufficient funds (liquidity) of each to ensure a fair trade between the tokens that make up the pool.
 
@@ -20,7 +20,7 @@ In this context, listing a token involves launching a new liquidity pool contain
 
 ### Minimum requirements
 
-👉 **Token Deployment.** Have your token deployed on Stacks blockchain since you will need you provide the token contract.
+👉 **Token Deployment.** Have your token deployed on Stacks blockchain since you will need to provide the token contract.
 
 👉 **Select an Anchor Token.** Choose an anchor token from the available options: Stacks native currency STX, ALEX token, or aBTC token. Ensure you have at least 1,800 STX or an equivalent value in ALEX or aBTC token to create the pool (minimum anchor token liquidity).
 
