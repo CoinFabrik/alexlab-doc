@@ -108,9 +108,7 @@ Once the pool opens, the AMM algorithm will automatically rebalance the exchange
 
 <summary>Step 1.4: Advanced pool settings (optional)</summary>
 
-This step is optional, as the default settings are usually sufficient.
-
-However, we recommend consulting the [ALEXGo Technical documentation](https://docs.alexgo.io/automated-market-making/trading-pool) before making customizations. If you have questions to ask before customization, reach out via [Discord](https://discord.com/invite/alexlab) or [Telegram](https://t.me/AlexCommunity).
+This step is optional, as the default settings are usually sufficient. If you have questions to ask before customization, reach out via [Discord](https://discord.com/invite/alexlab) or [Telegram](https://t.me/AlexCommunity).
 
 </details>
 
@@ -167,7 +165,7 @@ Summarized Steps:
 
 1) User submits token information, balances and config params. Within this same transaction, transfers the anchor token balance.
 
-2) User waits for token confirmation from ALEX
+2) User waits for token confirmation from ALEX side.
 
 3) User deposits the listed token balance.
 
