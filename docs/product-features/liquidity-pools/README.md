@@ -1,5 +1,5 @@
 ---
-description: Participate in ALEX DEX liquidity pools and earn a share of the trading fees!
+description: Choose between traditional AMMs or the new DAMM model to provide liquidity on ALEX.
 layout:
   title:
     visible: true
@@ -15,28 +15,44 @@ layout:
 
 # 🐋 Liquidity Pools
 
-By adding liquidity to a pool, you will earn fees from all trades between a token pair proportional to your share of the pool. Fees are added to the pool, automatically accrued in real-time and can be claimed by withdrawing back your liquidity.
+ALEX now supports **two types of liquidity pools**:  
+→ the **traditional AMM model**, and  
+→ the new **DAMM (Discrete Automated Market Maker)**.
 
-## Explore
+Both allow you to earn fees by providing liquidity, but each offers different levels of control and strategy.
 
-{% content-ref url="key-concepts.md" %} [key-concepts.md](key-concepts.md) {% endcontent-ref %}
-{% content-ref url="how-to-add.md" %} [how-to-add.md](how-to-add.md) {% endcontent-ref %}
-{% content-ref url="how-to-remove.md" %} [how-to-remove.md](how-to-remove.md) {% endcontent-ref %}
-{% content-ref url="faqs.md" %} [faqs.md](faqs.md) {% endcontent-ref %}
+## AMM (Traditional Model)
 
-<!-- 
+liquidity is distributed evenly across all prices.  
+Great for users who want to stake and earn without worrying about price ranges.
 
-Old cards layout, in case we want to revert it
+{% content-ref url="amm/key-concepts.md" %} [Key Concepts](amm/key-concepts.md) {% endcontent-ref %}  
+{% content-ref url="amm/how-to-add.md" %} [How to Add Liquidity](amm/how-to-add.md) {% endcontent-ref %}  
+{% content-ref url="amm/how-to-remove.md" %} [How to Remove Liquidity](amm/how-to-remove.md) {% endcontent-ref %}  
+{% content-ref url="amm/faqs.md" %} [FAQs](amm/faqs.md) {% endcontent-ref %}
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Key concepts</td><td><a href="key-concepts.md">key-concepts.md</a></td><td><a href="../../.gitbook/assets/cards/key-concepts.png">cards/key-concepts.png</a></td></tr><tr><td>How to add/remove liquidity</td><td><a href="how-to.md">how-to.md</a></td><td><a href="../../.gitbook/assets/cards/how-to.png">cards/how-to.png</a></td></tr><tr><td>FAQs</td><td><a href="faqs.md">faqs.md</a></td><td><a href="../../.gitbook/assets/cards/faqs.png">cards/faqs.png</a></td></tr></tbody></table> 
+## DAMM (Discrete AMM)
 
--->
+A more advanced option that lets you concentrate your liquidity in specific price ranges (called *ticks*).  
+Ideal for users who want tighter capital efficiency and more control.
+
+{% content-ref url="damm/key-concepts.md" %} [Key Concepts](damm/key-concepts.md) {% endcontent-ref %}
+{% content-ref url="damm/how-to-add.md" %} [How to Add Liquidity](damm/how-to-add.md) {% endcontent-ref %}  
+{% content-ref url="damm/how-to-remove.md" %} [How to Remove Liquidity](damm/how-to-remove.md) {% endcontent-ref %}    
+{% content-ref url="damm/faqs.md" %} [FAQs](damm/faqs.md) {% endcontent-ref %}
 
 ### Looking to Create Your Own Pool?
 
-The Self-Service Listing allows you to create your own trading pool within the ALEX decentralized exhange. Visit the dedicated page for more details.
+The Self-Service Listing allows you to create your own trading pool within the ALEX decentralized exchange. Visit the dedicated page for more details.
 
 {% content-ref url="../self-service-listing.md" %} [../self-service-listing.md](../self-service-listing.md) {% endcontent-ref %}
+
+## Not Sure Which One to Use?
+
+- Choose **AMM** if you're looking for simplicity and passive earning.
+- Choose **DAMM** if you want more control and better fee efficiency in specific price zones.
+
+You can try both and see which works best for your strategy!
 
 ## Support
 
