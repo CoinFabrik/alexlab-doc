@@ -19,48 +19,33 @@ ALEX now supports **two types of liquidity pools**:
 → the **traditional AMM model**, and  
 → the new **DAMM (Discrete Automated Market Maker)**.
 
-Both allow you to earn fees by providing liquidity, but each offers different levels of control and strategy.
+Both options let you earn fees by providing liquidity — but they differ in how your capital is used:
 
+- **AMM** distributes your liquidity evenly across the full price range.  
+  It’s simple and passive — ideal for users who prefer a “set and forget” strategy.
+
+- **DAMM** lets you concentrate your liquidity in specific price ranges, called *ticks*.  
+  It’s more advanced — perfect for users seeking greater efficiency and control.
 
 ## Explore
 
 {% content-ref url="key-concepts.md" %} [key-concepts.md](key-concepts.md) {% endcontent-ref %}
-{% content-ref url="amm-guide.md" %} [amm-guide.md](amm-guide/README.md) {% endcontent-ref %}
-{% content-ref url="damm-guide.md" %} [damm-guide.md](damm-guide/README.md) {% endcontent-ref %}
+{% content-ref url="amm-guide/README.md" %} [amm-guide.md](amm-guide/README.md) {% endcontent-ref %}
+{% content-ref url="damm-guide/README.md" %} [damm-guide.md](damm-guide/README.md) {% endcontent-ref %}
 {% content-ref url="faqs.md" %} [faqs.md](faqs.md) {% endcontent-ref %}
 
-## AMM (Traditional Model)
+## Not Sure Which One to Use?
 
-liquidity is distributed evenly across all prices.  
-Great for users who want to stake and earn without worrying about price ranges.
+- Choose **AMM** for simplicity and passive earning.
+- Choose **DAMM** for precision and better capital efficiency.
 
-{% content-ref url="amm/key-concepts.md" %} [Key Concepts](amm/key-concepts.md) {% endcontent-ref %}  
-{% content-ref url="amm/how-to-add.md" %} [How to Add Liquidity](amm/how-to-add.md) {% endcontent-ref %}  
-{% content-ref url="amm/how-to-remove.md" %} [How to Remove Liquidity](amm/how-to-remove.md) {% endcontent-ref %}  
-{% content-ref url="amm/faqs.md" %} [FAQs](amm/faqs.md) {% endcontent-ref %}
-
-## DAMM (Discrete AMM)
-
-A more advanced option that lets you concentrate your liquidity in specific price ranges (called *ticks*).  
-Ideal for users who want tighter capital efficiency and more control.
-
-{% content-ref url="damm/key-concepts.md" %} [Key Concepts](damm/key-concepts.md) {% endcontent-ref %}
-{% content-ref url="damm/how-to-add.md" %} [How to Add Liquidity](damm/how-to-add.md) {% endcontent-ref %}  
-{% content-ref url="damm/how-to-remove.md" %} [How to Remove Liquidity](damm/how-to-remove.md) {% endcontent-ref %}    
-{% content-ref url="damm/faqs.md" %} [FAQs](damm/faqs.md) {% endcontent-ref %}
+You can try both and see which works best for your strategy!
 
 ### Looking to Create Your Own Pool?
 
 The Self-Service Listing allows you to create your own trading pool within the ALEX decentralized exchange. Visit the dedicated page for more details.
 
 {% content-ref url="../self-service-listing.md" %} [../self-service-listing.md](../self-service-listing.md) {% endcontent-ref %}
-
-## Not Sure Which One to Use?
-
-- Choose **AMM** if you're looking for simplicity and passive earning.
-- Choose **DAMM** if you want more control and better fee efficiency in specific price zones.
-
-You can try both and see which works best for your strategy!
 
 ## Support
 
