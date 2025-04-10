@@ -30,8 +30,8 @@ Both options let you earn fees by providing liquidity — but they differ in how
 ## Explore
 
 {% content-ref url="key-concepts.md" %} [key-concepts.md](key-concepts.md) {% endcontent-ref %}
-{% content-ref url="amm-guide/README.md" %} [amm-guide.md](amm-guide/README.md) {% endcontent-ref %}
-{% content-ref url="damm-guide/README.md" %} [damm-guide.md](damm-guide/README.md) {% endcontent-ref %}
+{% content-ref url="amm-guides/README.md" %} [amm-guides.md](amm-guides/README.md) {% endcontent-ref %}
+{% content-ref url="damm-guides/README.md" %} [damm-guides.md](damm-guides/README.md) {% endcontent-ref %}
 {% content-ref url="faqs.md" %} [faqs.md](faqs.md) {% endcontent-ref %}
 
 ## Not Sure Which One to Use?
