@@ -25,7 +25,7 @@ Please do not remove the "What is New?" section, just hide it.
   * [💡 Key Concepts](product-features/stacks-swaps/key-concepts.md)
   * [📖 How to Swap](product-features/stacks-swaps/how-to.md)
   * [❓ FAQs](product-features/stacks-swaps/faqs.md)
-* [🐋 Liquidity Pools](product-features/liquidity-pools/README.md)
+* [🐋 Liquidity Pools](product-features/liquidity-pools/overview.md)
   * [💧 AMM](product-features/liquidity-pools/amm/README.md)
     * [💡 Key Concepts](product-features/liquidity-pools/amm/key-concepts.md)
     * [↘️ How to Add Liquidity](product-features/liquidity-pools/amm/how-to-add.md)
