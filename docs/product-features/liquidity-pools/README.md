@@ -21,6 +21,14 @@ ALEX now supports **two types of liquidity pools**:
 
 Both allow you to earn fees by providing liquidity, but each offers different levels of control and strategy.
 
+
+## Explore
+
+{% content-ref url="key-concepts.md" %} [key-concepts.md](key-concepts.md) {% endcontent-ref %}
+{% content-ref url="amm-guide.md" %} [amm-guide.md](amm-guide/README.md) {% endcontent-ref %}
+{% content-ref url="damm-guide.md" %} [damm-guide.md](damm-guide/README.md) {% endcontent-ref %}
+{% content-ref url="faqs.md" %} [faqs.md](faqs.md) {% endcontent-ref %}
+
 ## AMM (Traditional Model)
 
 liquidity is distributed evenly across all prices.  
