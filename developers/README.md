@@ -8,10 +8,16 @@ Our architecture allows decentralized trading, cross-chain swaps, yield generati
 
 This documentation is designed for developers building on or integrating with the ALEX ecosystem. Here you'll find:
 
-🏗️ [Deployment information and contract addresses](developers/protocol-contracts/README.md)
+{% content-ref url="developers/protocol-contracts/README.md" %} [🏗️ Deployment information and contract addresses](developers/protocol-contracts/README.md) {% endcontent-ref %}
+{% content-ref url="developers/api-references.md" %} [🧬 Integration guides](developers/api-references.md) {% endcontent-ref %}
+{% content-ref url="developers/protocol-contracts/README.md" %} [🏛️ Smart contracts documentation](developers/protocol-contracts/README.md) {% endcontent-ref %}
+{% content-ref url="developers/security-audit.md" %} [🛡️ Security audit reports](developers/security-audit.md) {% endcontent-ref %}
+<!-- {% content-ref url="faqs.md" %} [faqs.md](faqs.md) {% endcontent-ref %} -->
+
+<!-- 🏗️ [Deployment information and contract addresses](developers/protocol-contracts/README.md)
 
 🧬 [Integration guides](developers/api-references.md)
 
 🏛️ [Smart contracts documentation](developers/protocol-contracts/README.md)
 
-🛡️ [Security audit reports](developers/security-audit.md)
+🛡️ [Security audit reports](developers/security-audit.md) -->
