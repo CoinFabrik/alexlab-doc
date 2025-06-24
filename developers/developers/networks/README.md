@@ -1,6 +1,5 @@
 ---
 description: Stacks networks environments and deployed addresses
 ---
-
-* [Mainnet](mainnet.md)
-* [Testnet](testnet.md)
+{% content-ref url="mainnet.md" %} [Mainnet](developers/protocol-contracts/mainnet.md) {% endcontent-ref %}
+{% content-ref url="testnet.md" %} [Testnet](testnet.md) {% endcontent-ref %}
